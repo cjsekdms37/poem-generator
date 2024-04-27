@@ -7,32 +7,35 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form action="/">
-        <input
-          type="text"
-          placeholder="Enter topic for poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div class="results">This is where the results will show</div>
-    </main>
+      <main>
+        <form action="/">
+          <input
+            type="text"
+            placeholder="Enter topic for poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="subject-input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">This is where the results will show</div>
+      </main>
 
-    <footer>
-      This AI project was coded by Jenny D. Michaels and is open-sourced on
-      <a href="https://github.com/cjsekdms37/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://poem-generator-djcm.netlify.app">Netlify</a>
-    </footer>
-    <script src=" src/index.js"></script>
+      <footer>
+        This AI project was coded by Jenny D. Michaels and is open-sourced on
+        <a href="https://github.com/cjsekdms37/poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://poem-generator-djcm.netlify.app">Netlify</a>
+      </footer>
+      <script src=" src/index.js"></script>
+    </div>
   </body>
 </html>
