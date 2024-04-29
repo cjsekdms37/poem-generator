@@ -1,5 +1,5 @@
 .container {
-  background-color: aquamarine;
+  background-color: #100562;
   border-radius: 10px;
   margin: 140px auto;
   max-width: 650px;
@@ -7,12 +7,13 @@
 }
 
 .poem {
+  background-color: #e0faa3;
+  border-radius: 10px;
   padding: 20px;
-  background-color: white;
 }
 
 .subject-input {
-  border: 1px solid red;
+  border: 1px solid #b6ce7d;
   border-radius: 5px;
   font-size: 16px;
   line-height: 20px;
@@ -21,28 +22,41 @@
 }
 
 .submit-button {
-  background-color: blueviolet;
+  background-color: #b6ce7d;
   border: 1px solid white;
   border-radius: 5px;
   color: white;
-  margin-left: 13px;
-  padding: 8px 12px;
+  margin-left: 9px;
+  padding: 9px 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 121, 255);
+  text-decoration: underline;
 }
 
 form {
   background-color: white;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  padding: 10px 20px;
+  padding: 10px 6px;
 }
 
 footer {
-  font-size: 15px;
+  color: #b6ce7d;
+  font-size: 14px;
   text-align: center;
   margin-top: 30px;
 }
 
 h1 {
+  color: #c6d999;
   text-align: center;
 }
