@@ -6,9 +6,14 @@
   padding: 40px 50px;
 }
 
+.hidden {
+  display: none;
+}
+
 .poem {
-  background-color: #e0faa3;
+  background-color: #c1d591;
   border-radius: 10px;
+  margin-top: 15px;
   padding: 20px;
 }
 
@@ -45,7 +50,7 @@ form {
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   padding: 10px 6px;
 }
 
@@ -59,4 +64,24 @@ footer {
 h1 {
   color: #c6d999;
   text-align: center;
+}
+
+small {
+  color: #c6d999;
+  margin-left: 13px;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
 }
